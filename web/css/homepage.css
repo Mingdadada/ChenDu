@@ -1,0 +1,99 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Microsoft Yahei;
+}
+html{
+	height:100%;
+}
+body{
+	height:100%;
+	width:100%;
+	background-color:#F4F4F4;
+}
+#footer{
+	position:relative;
+	height:6%;
+	min-height:55px;
+	background-color:#303B47;
+	color:white;
+}
+#footer span{
+	position:absolute;
+	right:20px;
+	top:15px;
+}
+#footer span button{
+	
+}
+.logo{
+	width:35px;
+	height:35px;
+	padding:0px 0px 0px 5px;
+	vertical-align:bottom;
+}
+#list{
+	vertical-align:top;
+    display:inline-block;
+    background-color:#4D535F;
+    height:94%;
+	width:10%;
+	min-width:170px;
+	color:white;
+}
+.headimg{
+    width:60px;
+    height:60px;
+}
+#list ul{
+    list-style:none;
+	font-family:Microsoft Yahei;
+	color:white;
+}
+#list ul li{
+	height:50px;
+	line-height:50px;
+	padding-left:40px;
+}
+#list .menu:hover{
+	background-color:#303B47;
+	cursor:pointer;
+}
+.icon{
+	width:17px;
+	height:17px;
+	vertical-align:middle;
+	margin-right:5px;
+}
+.childlist{
+	vertical-align:top;
+	display:inline-block;
+	width:10%;
+	min-width:170px;
+	height:95%;
+	background-color:#E8E8E8;
+	margin-left:-5px;
+}
+.childlist ul{
+	list-style:none;
+	padding-top:110px;
+}
+.childlist li{
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	border-top:1px solid #CCC;
+	border-collapse:collapse;
+}
+.childlist li:first-child{
+	border-top:none;
+}
+.childlist li:hover{
+	background-color:#1ca8ff;
+	cursor:pointer;
+}
+.content{
+	vertical-align:top;
+	display:inline-block;
+	
+}

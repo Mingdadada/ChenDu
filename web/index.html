@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>登录</title>
+<meta charset = "utf-8"></meta>
+<link rel = "stylesheet" type = "text/css" href = "css/index.css"/>
+</head>
+<body>
+<div id = "main">
+	<div id = "header">
+		<img src = "img/logo2.jpg"/>
+		<div id = "ministry">
+			<p>中华人民共和国财政部</p>
+			<p class = "smallWord">Ministry of Finance of the People's Republic of China</p>
+			</div>
+		<div class = "line"></div>
+		<p id = "title">评审与评价工作平台</p>
+		</div>
+	<div id = "content">
+		<div id = "imgplace">
+			<img src = "img/logo.jpg"/>
+			</div>
+		<form class = "form" action = "https://10.108.123.181:8443/user/login" method = "POST">
+		  <table>
+			<tr id = "line">
+				<td>管理人登录</td>
+				<td>政府用户登录</td>
+				<td>机构登录</td>
+				</tr>
+			<tr>
+				<td colspan = "3"><input type = "text" placeholder = "请输入用户名" name = "userId"/></td>
+				</tr>
+			<tr>
+				<td colspan = "3"><input type = "password" placeholder = "请输入密码" name = "password"/></td>
+				</tr>
+			<tr>
+				<td colspan = "3"><button id = "loginButton" type = "submit">登&nbsp&nbsp&nbsp录</button></td>
+				</tr>
+			  </table>
+			</form>
+		</div>
+	<div id = "footer">
+		<p>COPYRIGHT 2017 中华人民共和国财政部 ALL RIGHT 京 ICP 备 12345678号 -1</p>
+		</div>
+</div>
+<script src = "js/index.js"></script>
+</body>
+</html>
